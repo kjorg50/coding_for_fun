@@ -16,26 +16,26 @@ loop do
     
     # Write an action using puts
     # To debug: STDERR.puts "Debug messages..."
-    x_dir = ""
+    x_dir = ''
     if @light_x > @initial_tx 
-        x_dir = "E"
+        x_dir = 'E'
         @initial_tx = @initial_tx + 1
     elsif @light_x < @initial_tx
-        x_dir = "W"
+        x_dir = 'W'
         @initial_tx = @initial_tx - 1
     else
-        x_dir = ""
+        x_dir = ''
     end
 
-    y_dir = ""
+    y_dir = ''
     if @light_y > @initial_ty 
-        y_dir = "S"
+        y_dir = 'S'
         @initial_ty = @initial_ty + 1
     elsif @light_y < @initial_ty
-        y_dir = "N"
+        y_dir = 'N'
         @initial_ty = @initial_ty - 1
     else
-        y_dir = ""
+        y_dir = ''
     end
 
     # A single line providing the move to be made: N NE E SE S SW W or NW

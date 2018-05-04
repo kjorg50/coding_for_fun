@@ -1,4 +1,5 @@
 # Power of Thor
 
-https://www.codingame.com/ide/puzzle/power-of-thor-episode-1
+Easy challenge: https://www.codingame.com/training/easy/power-of-thor-episode-1
 
+Code Golf Challenge: https://www.codingame.com/multiplayer/codegolf/power-of-thor
