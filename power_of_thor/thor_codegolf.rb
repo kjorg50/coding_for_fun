@@ -10,9 +10,9 @@ STDOUT.sync = true # DO NOT REMOVE
 @lx, @ly, @tx, @ty = gets.split(" ").collect {|x| x.to_i}
 
 # game loop
-loop do
+loop{
  r=gets.to_i
  x = @lx == @tx ? '' : (@lx > @tx ? (@tx+=1; 'E') : (@tx-=1; 'W'))
  y = @ly == @ty ? '' : (@ly > @ty ? (@ty+=1; 'S') : (@ty-=1; 'N'))
  puts y+x
-end
+}
